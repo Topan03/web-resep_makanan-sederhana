@@ -1,0 +1,31 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+body {
+    background: #f4f7fb;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #ff6b6b, #ff914d);
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background: #ff6b6b;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #ff914d;
+}
